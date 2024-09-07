@@ -1,0 +1,30 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication1.Form1.resources
+obj\Debug\WindowsApplication1.Resources.resources
+obj\Debug\Screen Saver.vbproj.GenerateResource.Cache
+bin\Debug\Dead Screen Saver.exe.manifest
+bin\Debug\Dead Screen Saver.application
+bin\Debug\Dead Screen Saver.exe
+bin\Debug\Dead Screen Saver.pdb
+bin\Debug\Dead Screen Saver.xml
+obj\Debug\Dead Screen Saver.exe.manifest
+obj\Debug\Dead Screen Saver.application
+obj\Debug\Dead Screen Saver.exe
+obj\Debug\Dead Screen Saver.xml
+obj\Debug\Dead Screen Saver.pdb
+bin\Release\Dead Screen Saver.exe.manifest
+bin\Release\Dead Screen Saver.application
+bin\Release\Dead Screen Saver.exe
+bin\Release\Dead Screen Saver.pdb
+bin\Release\Dead Screen Saver.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WindowsApplication1.Form1.resources
+obj\Release\WindowsApplication1.Resources.resources
+obj\Release\Screen Saver.vbproj.GenerateResource.Cache
+obj\Release\Dead Screen Saver.exe.manifest
+obj\Release\Dead Screen Saver.application
+obj\Release\Dead Screen Saver.exe
+obj\Release\Dead Screen Saver.xml
+obj\Release\Dead Screen Saver.pdb
+obj\Debug\WindowsApplication1.Form2.resources
+obj\Release\WindowsApplication1.Form2.resources
