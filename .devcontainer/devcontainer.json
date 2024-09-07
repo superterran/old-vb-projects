@@ -1,7 +1,6 @@
 {
 	"name": "vb",
-
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "wine",
+	"workspaceFolder": "/workspace"
 }
