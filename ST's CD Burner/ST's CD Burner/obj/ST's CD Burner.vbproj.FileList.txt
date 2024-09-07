@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication1.Form1.resources
+obj\Debug\WindowsApplication1.Resources.resources
+bin\Debug\ST's CD Burner.exe
+bin\Debug\ST's CD Burner.pdb
+bin\Debug\ST's CD Burner.xml
+bin\Debug\ZylBurner.dll
+obj\Debug\ST's CD Burner.vbproj.GenerateResource.Cache
+obj\Debug\ST's CD Burner.exe
+obj\Debug\ST's CD Burner.xml
+obj\Debug\ST's CD Burner.pdb

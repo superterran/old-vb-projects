@@ -1,0 +1,18 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsApplication1.Form1.resources
+obj\Debug\WindowsApplication1.Resources.resources
+bin\Debug\ZylBurner.dll
+bin\Debug\ST's QuickBurn.exe
+bin\Debug\ST's QuickBurn.pdb
+bin\Debug\ST's QuickBurn.xml
+bin\Debug\Interop.StdVCL.dll
+bin\Debug\Interop.ZylBurnerAXControl.dll
+bin\Debug\AxInterop.ZylBurnerAXControl.dll
+obj\Debug\Interop.StdVCL.dll
+obj\Debug\Interop.ZylBurnerAXControl.dll
+obj\Debug\AxInterop.ZylBurnerAXControl.dll
+obj\Debug\ST's QuickBurn.vbproj.ResolveComReference.cache
+obj\Debug\ST's QuickBurn.vbproj.GenerateResource.Cache
+obj\Debug\ST's QuickBurn.exe
+obj\Debug\ST's QuickBurn.xml
+obj\Debug\ST's QuickBurn.pdb
