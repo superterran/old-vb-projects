@@ -1,0 +1,203 @@
+<HEAD><TITLE> Superterran Password Generator (By: Doug 'The Superterran' Hatcher) </TITLE></HEAD>
+<BODY BGCOLOR="#000000" LINK="#d3d3d3" ALINK="#d3d3d3" VLINK="#d3d3d3">
+<TABLE BORDER="1" ALIGN="center" CELLSPACING="0" WIDTH="100%">
+
+<TR>
+  <TH COLSPAN = "2" BGCOLOR = "#6c6865"><DIV ALIGN = center><FONT COLOR = "#ffffff" Face = "Arial"> The Superterran Password Generator Read Me 
+      File</FONT></DIV>
+  </TH>
+</TR>
+
+
+<TR>
+
+   <TD Colspan = "2">
+      <DIV align=center><FONT COLOR = "#ffffff" Face = "Arial" size=5 
+     >
+   The Superterran Password Generator 1.0 Build 
+      102</FONT></DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff 
+size=4></FONT>&nbsp;</DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff size=4></FONT><IMG height=460 alt="" 
+      src="spgscreenshot.jpg" width=552 
+      border=0></DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff 
+size=4></FONT>&nbsp;</DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff size=4>By: The Superterran' 
+        </FONT></DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff 
+size=4></FONT>&nbsp;</DIV>
+      <DIV align=center><STRONG><FONT face=Arial color=#ffffff size=3><A 
+      href="http://superterran.tripod.com">http://superterran.tripod.com</A></FONT></STRONG></DIV>
+      <DIV align=center><STRONG><FONT face=Arial color=#ffffff><A 
+      href="mailto:thesuperterran@hotmail.com">thesuperterran@hotmail.com</A></FONT></STRONG></DIV>
+      <DIV align=center><FONT face=Arial color=#ffffff>&nbsp;</DIV></FONT>
+  </TD>
+</TR>
+
+
+<TR>
+  <TH COLSPAN = "2" BGCOLOR = "#6c6865"><DIV ALIGN = center><FONT COLOR = "#ffffff" Face = "Arial">    What does it 
+      do?</FONT></DIV>
+  </TH>
+</TR>
+
+
+<TR>
+
+   <TD Colspan = "2"><FONT face=Arial color=#ffffff>
+      <DIV align=center>&nbsp;</DIV>
+      <DIV align=center>This program is designed to generate random numbers 
+      and/or letters to make a randomly generated password. This process is 
+      relitivly easy, type in the number of characters you want it to be, select 
+      if you want it to be letters, numbers or both, and then click generate. i 
+      have succsessfully made a password with 10 thousand characters, but you 
+      should be able to make a password with more than 1 Million characters. Why 
+      would you ever want to use this program? Randomly generated passwords are 
+      the hardest to break, expecally if there really big. This program can 
+      easily make a 5 - 12 character password, and also easily make a 512 
+      character password, and for you parinoid people out there, make passwords 
+      that are 10 thousand, 100 thousand, even a million characters long. That 
+      type of thing is really secure. since this is a Superterran title, it is 
+      FREE! hahaha! i have plauged the UI with infomation about me and my site, 
+      which can be your payment. If you like this simple program, i urge you to 
+      visit my website, where you can find a lot of really cool stuff.&nbsp; The 
+      URL is <A 
+      href="http://superterran.tripod.com">http://superterran.tripod.com</A>. If 
+      you want to contact me, you can e-mail me at <A 
+      href="mailto:thesuperterran@hotmail.com">thesuperterran@hotmail.com</A>.<BR><BR></DIV></FONT>
+  </TD>
+</TR>
+
+
+<TR>
+  <TH COLSPAN = "2" BGCOLOR = "#6c6865"><DIV ALIGN = center><FONT COLOR = "#ffffff" Face = "Arial">    Credit's and useless 
+      infomation</FONT></DIV>
+  </TH>
+</TR>
+
+
+<TR>
+
+   <TD Colspan = "2"><FONT face=Arial color=#ffffff>
+      <DIV align=center>&nbsp;</DIV>
+      <DIV align=center>This piece of software was quickly thrown together by 
+        Doug 'The Superterran' Hatcher. I got the insparation for this nifty little 
+        thing from the Tech TV show, <A 
+      href="http://www.thescreensavers.com">The Screen Savers</A>! I was hearin' 
+        my boy Leo talk about passwords, and he was saying the best passwords 
+        where randomly generated numbers. And i thought to myself "Well superterran, 
+        that should be an easy program to write." and i went to work on the handy-Dancy 
+        Microsoft Visual Basic program. The Program is accually really easy. want 
+        to se the code?</DIV>
+      <DIV align=center>&nbsp;</DIV>
+      <DIV align=center><STRONG>Public Declorations</STRONG></DIV>
+      <DIV align=left>Public asciinum As Long<BR>Public coinflip As 
+      Integer<BR>Public amount As Long</DIV>
+      <DIV align=left>&nbsp;</DIV>
+      <DIV align=center><STRONG>Private Sub Command1_Click()</STRONG></DIV>
+      <DIV align=center><STRONG></STRONG>&nbsp;</DIV>
+      <DIV align=left>If password.Text &lt;&gt; "" Then<BR>&nbsp;&nbsp;&nbsp; 
+      prompt = MsgBox("If you continue, you will clear out your last generated 
+      password! Continue?", vbOKCancel + vbQuestion, "Superterran Password 
+      Generator 1.0 - Disgard previous 
+      password?")<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If prompt = 
+      vbCancel Then Exit Sub<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If 
+      prompt = vbOK Then password.Text = ""<BR>End If<BR>&nbsp;&nbsp;&nbsp; 
+      </DIV>
+      <DIV align=left>If camount = "" Then<BR>&nbsp;&nbsp;&nbsp; MsgBox "Please 
+      insert the number of characters of this password.", vbOKOnly + 
+      vbExclamation, "Superterran Password Cracker 1.0 - 
+      Error"<BR>&nbsp;&nbsp;&nbsp; Exit Sub<BR>End If</DIV>
+      <DIV align=left>percent.Visible = True</DIV>
+      <DIV align=left>amount = camount.Text</DIV>
+      <DIV align=left>percent.Max = amount<BR>percent.Min = 0<BR>percent.Value = 
+      amount</DIV>
+      <DIV align=left>&nbsp;</DIV>
+      <DIV align=left>'Figures out which one to root to<BR>If Option1(0).Value = 
+      True 
+      Then<BR>&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;<BR>textloop:<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Randomize<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; asciinum = Int((25 
+      * Rnd) + 1)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; asciinum = 
+      asciinum + 65<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; password.Text 
+      = password.Text &amp; 
+      Chr(asciinum)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amount = 
+      amount - 1<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; percent.Value = 
+      amount</DIV>
+      <DIV 
+      align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If 
+      amount = 0 
+      Then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      percent.Visible = False<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exit 
+      Sub<BR>&nbsp;&nbsp;&nbsp; 
+      Else<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GoTo 
+      textloop<BR>&nbsp;&nbsp;&nbsp; End If<BR>End If</DIV>
+      <DIV align=left>If Option1(1).Value = True 
+      Then<BR>&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;<BR>numloop:<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Randomize<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; asciinum = Int((9 
+      * Rnd) + 1)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; password.Text = 
+      password.Text &amp; asciinum<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      amount = amount - 1<BR>percent.Value = amount<BR>&nbsp;&nbsp;&nbsp; If 
+      amount = 0 Then<BR>&nbsp;&nbsp;&nbsp; percent.Visible = 
+      False<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exit 
+      Sub<BR>&nbsp;&nbsp;&nbsp; 
+      Else<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GoTo 
+      numloop<BR>&nbsp;&nbsp;&nbsp; End If<BR>End If</DIV>
+      <DIV align=left>If Option1(2).Value = True 
+      Then<BR>&nbsp;&nbsp;<BR>Ranchoose:<BR>&nbsp;&nbsp;&nbsp; If amount = 0 
+      Then percent.Visible = False: Exit Sub<BR>&nbsp;&nbsp;&nbsp; 
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Randomize<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; coinflip = Int((2 
+      * Rnd) + 
+      1)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      If coinflip = 1 
+      Then<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Randomize<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      asciinum = Int((25 * Rnd) + 
+      1)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      asciinum = asciinum + 
+      65<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      password.Text = password.Text + 
+      Chr(asciinum)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      amount = amount - 
+      1<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      percent.Value = amount</DIV>
+      <DIV 
+      align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Else<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Randomize<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      asciinum = Int((9 * Rnd) + 
+      1)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      password.Text = password.Text &amp; 
+      asciinum<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      amount = amount - 
+      1<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      percent.Value = amount</DIV>
+      <DIV align=left>&nbsp;&nbsp;&nbsp; End 
+      If<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GoTo 
+      Ranchoose<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <BR>End 
+      If<BR>&nbsp;&nbsp;&nbsp; <BR>percent.Visible = False</DIV>
+      <DIV align=left>&nbsp;&nbsp;&nbsp; <BR>End Sub</DIV>
+      <DIV align=left>&nbsp;</DIV>
+      <DIV align=center>Yep, that's about it. It's a pretty simple progam, and 
+      you can feel free to use that code anyway you want, well wait. Don't use 
+      it for a virus! if you can write a virus then that up there has to be 
+      childs play to you. And if you find any flaws in my programming and want 
+      to rub it in my face, then feel free! as you can see, there isn't really a 
+      way to crack it from my code, so the password is secure. NOTE: These 
+      passwords, like any other password isn't 100% secure, don't blame me or my 
+      program if you get cracked. i am not libable! Ok, so i said my peace, I am 
+      going to ship this thing to my site, and write a long E-Mail to that hott 
+      screensaver, Megan on the off chance she features my software (She's 
+      really hott, i think it's the smile!) and that's not bull shananigans to 
+      get here to feature this product, she is FINE! (and Sorry about the 
+      Rhoderenderans, hehe) yes, you can call me a geek, but kiss my butt, i 
+      have friends, so HA! this is just getthing way to long. later everyone, 
+      and visit the SITE!!!!</DIV>
+      <DIV align=center><BR>&nbsp;</DIV></FONT>
+  </TD>
+</TR>
+</TABLE></BODY></HTML>
